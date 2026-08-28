@@ -120,7 +120,7 @@ During my Ph.D., I was fortunate to be supervised by <a href="https://homepage.h
 
 ---
 <span id="-educations"></span>
-## 📖 Educations
+## <span class="section-icon" aria-hidden="true">📖</span>Educations
 <div class="resume-list" markdown="1">
 
 - *2024.09 – 2025.09*, Joint Ph.D. in the College of Computing and Data Science, Nanyang Technological University, Singapore
@@ -130,7 +130,7 @@ During my Ph.D., I was fortunate to be supervised by <a href="https://homepage.h
 
 ---
 <span id="-internships"></span>
-## 💻 Internships
+## <span class="section-icon" aria-hidden="true">💻</span>Internships
 <div class="resume-list" markdown="1">
 
 - *2023.09 – 2023.12*, Research Intern, Zhipu AI
@@ -140,7 +140,7 @@ During my Ph.D., I was fortunate to be supervised by <a href="https://homepage.h
 
 ---
 <span id="-honors-and-awards"></span>
-## 🎖 Honors and Awards
+## <span class="section-icon" aria-hidden="true">🎖️</span>Honors and Awards
 <div class="resume-list honors-list" markdown="1">
 
 - 2025: Provincial Outstanding Graduate (Ph.D.)
