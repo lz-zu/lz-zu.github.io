@@ -125,7 +125,7 @@ h1:before, .anchor:before {
 body {
   background: #f7f8fb;
   color: #26323f;
-  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
   letter-spacing: 0;
 }
 
@@ -138,7 +138,7 @@ body {
 .masthead__inner-wrap {
   padding-top: 0.65rem;
   padding-bottom: 0.65rem;
-  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .greedy-nav a {
@@ -177,7 +177,7 @@ body {
   padding-bottom: 0.55rem;
   border-bottom: 1px solid #e7ebf0;
   color: #152233;
-  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
   letter-spacing: 0;
 }
 
@@ -376,79 +376,307 @@ body {
 .sidebar p,
 .sidebar li,
 .author__urls-wrapper {
-  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", cursive;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Reference-inspired academic homepage refresh
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #3f3f46;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 15px;
+}
+
+.masthead {
+  background: rgba(255, 255, 255, 0.82);
+  border-bottom: 0;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav a {
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.greedy-nav a {
+  color: #3f3f46;
+  font-weight: 700;
+}
+
+.greedy-nav a:hover {
+  color: #1565c0;
+}
+
+#main {
+  max-width: 1340px;
+  margin-top: 1.25rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.page__inner-wrap {
+  width: 100%;
+  padding: 1.25rem 0.75rem 3rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.page__content {
+  color: #3f3f46;
+  line-height: 1.68;
+}
+
+.page__content h1,
+.page__content h2 {
+  margin-top: 1.55em;
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: #303036;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: 700;
+}
+
+.page__content h1 {
+  font-size: 1.75rem;
+}
+
+.page__content h2 {
+  font-size: 1.42rem;
+}
+
+.page__content p,
+.page__content li {
+  font-size: 1.05rem;
+}
+
+.page__content a {
+  color: #1565c0;
+  font-weight: 400;
+}
+
+.page__content a:hover {
+  color: #0d47a1;
+}
+
+.page__content hr {
+  margin: 2rem 0;
+  border-top-color: rgba(63, 63, 70, 0.14);
+}
+
+.intro-panel,
+.interest-list {
+  margin-top: 0.65rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.interest-list ul {
+  padding-left: 1.25rem;
+}
+
+.news-list,
+.publication-list,
+.honors-list {
+  margin-top: 0.75rem;
+  overflow-y: auto;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: none;
+}
+
+.news-list {
+  max-height: 300px;
+}
+
+.publication-list {
+  max-height: 520px;
+}
+
+.honors-list {
+  max-height: 250px;
+}
+
+.resume-list li {
+  margin-bottom: 0.55rem;
+  padding: 0.55rem 0.75rem;
+  border: 0;
+  border-left: 2px solid #1565c0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.resume-list li:hover {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: none;
+}
+
+.news-list strong,
+.publication-list strong,
+.resume-list strong {
+  color: #303036;
+}
+
+.sidebar,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6,
+.sidebar p,
+.sidebar li {
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .profile_box {
-  padding: 1.15rem;
-  border: 1px solid #e7ebf0;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 14px 36px rgba(31, 42, 55, 0.06);
+  display: block;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1.4rem 0.75rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+
+.profile_box .author__avatar {
+  display: block;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto 1.45rem;
 }
 
 .profile_box .author__avatar img {
   display: block;
-  width: 82%;
-  max-width: 178px;
-  height: auto;
-  margin: 0 auto;
-  border: 3px solid #fff;
-  box-shadow: 0 0 0 1px #d9e0e8, 0 10px 24px rgba(31, 42, 55, 0.12);
+  width: 100% !important;
+  max-width: none;
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: none;
 }
 
-.author__name {
-  margin-top: 1rem;
-  font-size: 1.55rem;
-  line-height: 1.15;
-  color: #152233;
+.author__content {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+}
+
+.sidebar .author__name {
+  margin: 0 0 0.75rem;
+  color: #111827;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 .author__bio,
-.author__urls li {
-  color: #566474;
+.author__employer,
+.author__location {
+  margin: 0 0 0.45rem;
+  color: #73737b;
+  font-size: 1.12rem;
+  line-height: 1.35;
 }
 
-.author__urls li {
-  margin-bottom: 0.45rem;
-  line-height: 1.45;
+.author__employer {
+  font-size: 1.18rem;
 }
 
-.author__urls i,
-.author__urls_sm i {
-  color: #224b8d;
+.author__location {
+  font-size: 1rem;
 }
 
-.author__urls a {
-  color: #224b8d;
-  font-weight: 700;
+.author__email {
+  display: inline-block;
+  margin-top: 0.55rem;
+  color: #1565c0;
+  font-size: 1.08rem;
+  text-decoration: none;
 }
 
-.author__urls a:hover {
-  color: #0f766e;
+.author__email:hover {
+  color: #0d47a1;
+  text-decoration: underline;
 }
 
-.badge {
-  border-radius: 4px;
-  background-color: #224b8d;
+.author__social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.6rem;
+}
+
+.author__social a {
+  color: #1565c0;
+  font-size: 2.15rem;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.author__social a:hover {
+  color: #0d47a1;
+  transform: translateY(-2px) scale(1.06);
+}
+
+@include breakpoint($large) {
+  .sidebar {
+    width: 32% !important;
+    padding: 1.25rem 2.25rem 0 0.5rem;
+  }
+
+  .page {
+    width: 68% !important;
+    padding-left: 1.5rem !important;
+  }
 }
 
 @include breakpoint(max-width $large) {
+  .profile_box {
+    max-width: 420px;
+  }
+
   .page__inner-wrap {
-    padding: 1.25rem;
+    padding: 1rem 0 2.5rem;
   }
 }
 
 @include breakpoint(max-width $small) {
   #main {
-    margin-top: 1rem;
-    padding-left: 0.85rem;
-    padding-right: 0.85rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
-  .page__inner-wrap,
-  .profile_box {
-    border-radius: 7px;
+  .profile_box .author__avatar {
+    width: 170px;
+    height: 170px;
+  }
+
+  .sidebar .author__name {
+    font-size: 1.65rem;
   }
 
   .page__content h1 {
@@ -456,17 +684,14 @@ body {
   }
 
   .page__content h2 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
 
   .news-list,
   .publication-list,
   .honors-list {
-    max-height: none;
-    overflow-y: visible;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
+    padding: 0.7rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    background: rgba(255, 255, 255, 0.72);
   }
 }
