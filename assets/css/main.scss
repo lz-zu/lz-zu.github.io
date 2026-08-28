@@ -643,13 +643,25 @@ body {
 }
 
 @include breakpoint($large) {
+  #main {
+    display: flex;
+    align-items: flex-start;
+  }
+
   .sidebar {
-    width: 32% !important;
+    clear: none;
+    flex: 0 0 32%;
+    float: none;
+    width: auto !important;
+    margin-right: 0;
     padding: 1.25rem 2.25rem 0 0.5rem;
   }
 
   .page {
-    width: 68% !important;
+    flex: 0 0 68%;
+    float: none;
+    width: auto !important;
+    margin-right: 0;
     padding-left: 1.5rem !important;
   }
 }
