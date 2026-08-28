@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Zu Lizheng"
 description              : "Focus on Knowledge Graphs, LLM-based Agents and Time Series. "
-repository               : "zulihit.github.io"
+repository               : "lz-zu/lz-zu.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "zulihit" # e.g., "github username"
+  github           : "lz-zu" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
