@@ -31,9 +31,9 @@ During my Ph.D., I was fortunate to be supervised by <a href="https://homepage.h
 ## 🤖 Research Interests
 <div class="interest-list" markdown="1">
 
-- **LLM-based Agents**: Multi-agent Cooperation, gui agent
+- **LLM-based Agents**: multi-agent cooperation, gui agent
 - **Generative Models**: LLMs and MLLMs reasoning, interactive world models, vision-language models, model cooperation
-- **Knowledge Graph**: graphrag, knowledge representation, Knowledge-augmented LLM
+- **Knowledge Graph**: graphrag, knowledge representation, knowledge-augmented LLMs
 - **Time Series**: LLMs for time series, anomaly detection, remaining life prediction
 
 </div>
