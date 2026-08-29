@@ -157,7 +157,6 @@ I am always open to research collaborations. If our research interests align, pl
 - 2025: Provincial Outstanding Graduate (Ph.D.)
 - 2024: China National Scholarship (Ph.D.)
 - 2024: Outstanding Student Award, Harbin Institute of Technology
-- 2024: Provincial Silver Award, 5th China "Internet+" Innovation & Entrepreneurship Competition  
 - 2021: Provincial Outstanding Graduate (M.S.)
 - 2021: Excellent Thesis Award (M.S.)
 - 2020: China National Scholarship (M.S.)
