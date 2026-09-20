@@ -67,7 +67,7 @@ I am always open to research collaborations. If our research interests align, pl
 - *2024.06*: 📄 Paper on time-series anomaly detection accepted to **EAAI (IF: 8)**.  
 - *2024.03*: 🎓 Started visiting research at **SMU, Singapore**, working with [Prof. Pan Zhou](https://panzhous.github.io/).
 - *2024.03*: 📄 Paper on knowledge graph embedding accepted to **ESWA (IF: 7.5)**.  
-- *2024.02*: 💼 Joined **TAL** as a research intern, working with Dr. Jianjin Xu.  
+- *2024.02*: 💼 Joined **TAL** as a research intern, working with [Dr. Jianjin Xu](https://atlantixjj.github.io/).
 - *2024.02*: 📄 Paper on knowledge graph representation learning accepted to **KBS (IF: 7.6)**.  
 - *2023.10*: 📄 Paper on entity linking accepted to **ESWA (IF: 7.5)**.  
 - *2023.09*: 💼 Joined **Zhipu AI** as a research intern, working with Dr. Dingxiao Liu. 
